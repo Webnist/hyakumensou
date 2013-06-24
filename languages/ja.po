@@ -1,0 +1,943 @@
+# Translation of Twenty Ten in Japanese
+#
+# Copyright (c) 2010
+# このファイルは Twenty Ten パッケージと同じライセンスのもと配布されています。
+# This file is distributed under the same license as the Twenty Ten package.
+#
+# WordPress 日本語版作成チーム / WP ja translation team
+# <http://groups.google.com/group/wp-ja-pkg/web/members>
+#
+#  誤字脱字誤訳、あるいはよりよい訳などありましたら以下までぜひお知らせください。
+#  また、翻訳、校正、コミットをお手伝いしていただける方も随時募集中です。
+#  連絡先 / Contact: wpja.team@gmail.com (件名か内容に「日本語リソース」と入れてください)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Megumi Themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-09 19:32+0900\n"
+"PO-Revision-Date: 2011-05-09 19:33+0900\n"
+"Last-Translator: \n"
+"Language-Team: Megumi <info@digitalcube.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "Not Found"
+msgstr "見つかりません"
+
+#: 404.php:14
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "リクエストされたページが存在しません。検索で見つかるかもしれません。"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "この投稿はパスワードで保護されています。コメントを表示するにはパスワードを入力してください。"
+
+#: comments.php:13
+#, php-format
+msgid "One Response to %2$s"
+msgstr "%2$s への%1$s件のコメント"
+
+#: comments.php:16
+#: comments.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> 古いコメント"
+
+#: comments.php:17
+#: comments.php:26
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しいコメント <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:17
+#: content-single.php:23
+msgid "<span>Pages:</span>"
+msgstr "<span>ページ:</span>"
+
+#: content-page.php:18
+#: content-single.php:28
+#: loop.php:33
+msgid "Edit"
+msgstr "編集"
+
+#: functions.php:128
+msgid "Main Navigation"
+msgstr "メインナビゲーション"
+
+#: functions.php:129
+msgid "Footer Navigation"
+msgstr "フッターナビゲーション"
+
+#: functions.php:151
+msgid "Megumi themes"
+msgstr "め組テーマ"
+
+#: functions.php:166
+msgid "Header Widget Area"
+msgstr "ヘッダーウィジェットエリア"
+
+#: functions.php:168
+msgid "The header widget area"
+msgstr "ヘッダーでウィジェットを使用します。"
+
+#: functions.php:178
+#: functions.php:180
+msgid "First Front Page Widget Area"
+msgstr "HOME ウィジェットエリア 1"
+
+#: functions.php:189
+#: functions.php:191
+msgid "Second Front Page Widget Area"
+msgstr "HOME ウィジェットエリア 2"
+
+#: functions.php:200
+#: functions.php:202
+msgid "Third Front Page Widget Area"
+msgstr "HOME ウィジェットエリア 3"
+
+#: functions.php:211
+#: functions.php:213
+msgid "Fourth Front Page Widget Area"
+msgstr "HOME ウィジェットエリア 4"
+
+#: functions.php:224
+msgid "First Side Widget Area"
+msgstr "サイドウィジェットエリア 1"
+
+#: functions.php:226
+msgid "The first side widget area"
+msgstr "サイドバーでウィジェットを使用します。"
+
+#: functions.php:235
+msgid "Second Side Widget Area"
+msgstr "サイドウィジェットエリア 2"
+
+#: functions.php:237
+msgid "The second side widget area"
+msgstr "サイドバーでウィジェットを使用します。"
+
+#: functions.php:246
+msgid "First Footer Widget Area"
+msgstr "フッターウィジェットエリア1"
+
+#: functions.php:248
+msgid "The first footer widget area"
+msgstr "フッターウィジェットエリア1"
+
+#: functions.php:257
+msgid "Second Footer Widget Area"
+msgstr "フッターウィジェットエリア2"
+
+#: functions.php:259
+msgid "The second footer widget area"
+msgstr "フッターウィジェットエリア2"
+
+#: functions.php:268
+msgid "Third Footer Widget Area"
+msgstr "フッターウィジェットエリア3"
+
+#: functions.php:270
+msgid "The third footer widget area"
+msgstr "フッターウィジェットエリア3"
+
+#: functions.php:279
+msgid "Fourth Footer Widget Area"
+msgstr "フッターウィジェットエリア4"
+
+#: functions.php:281
+msgid "The fourth footer widget area"
+msgstr "フッターウィジェットエリア4"
+
+#: functions.php:382
+msgid "Read the Rest..."
+msgstr "続きを読む..."
+
+#: functions.php:393
+msgid "ID"
+msgstr ""
+
+#: functions.php:404
+msgid "None"
+msgstr ""
+
+#: loop.php:20
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "%s へのパーマリンク"
+
+#: loop.php:27
+msgid "Pages:"
+msgstr "ページ:"
+
+#: includes/megumi-functions.php:16
+#: includes/megumi-functions.php:18
+msgid "All Post"
+msgstr "すべての投稿"
+
+#: includes/megumi-functions.php:16
+#: includes/megumi-functions.php:22
+#, php-format
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: includes/megumi-functions.php:378
+#, php-format
+msgid "Category Archives: %s"
+msgstr "\"%s\" の一覧"
+
+#: includes/megumi-functions.php:381
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "\"%s\" の一覧"
+
+#: includes/megumi-functions.php:384
+#, php-format
+msgid "Taxonomy Archives: %s"
+msgstr "\"%s\" の一覧"
+
+#: includes/megumi-functions.php:387
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "日別アーカイブ: %s"
+
+#: includes/megumi-functions.php:390
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "月別アーカイブ: %s"
+
+#: includes/megumi-functions.php:393
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "年別アーカイブ: %s"
+
+#: includes/megumi-functions.php:396
+#, php-format
+msgid "Search results in %s for %s hits."
+msgstr "'%s' の検索結果 %s 件見つかりました。"
+
+#: includes/megumi-functions.php:399
+#, php-format
+msgid "Author Archives: %s"
+msgstr "\"%s\" の一覧"
+
+#: includes/megumi-functions.php:407
+#, php-format
+msgid "About %s"
+msgstr "%s の紹介"
+
+#: includes/megumi-functions.php:414
+msgid "Blog Archives:"
+msgstr "ブログアーカイブ:"
+
+#: includes/megumi-functions.php:440
+#, fuzzy
+msgid "Posts by "
+msgstr "投稿者: %s"
+
+#: includes/megumi-functions.php:446
+msgid "<span class=\"author\">"
+msgstr ""
+
+#: includes/megumi-functions.php:448
+#, fuzzy, php-format
+msgid " %s"
+msgstr "ページ %s"
+
+#: includes/megumi-functions.php:463
+msgid "Posted in "
+msgstr "カテゴリー:"
+
+#: includes/megumi-functions.php:476
+#: includes/megumi-functions.php:507
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: includes/megumi-functions.php:492
+msgid "Tags in "
+msgstr "タグ:"
+
+#: includes/megumi-functions.php:521
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: includes/megumi-functions.php:522
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: includes/megumi-functions.php:523
+#, php-format
+msgid "%s Comments"
+msgstr "%s件のコメント"
+
+#: includes/megumi-functions.php:525
+msgid "Comments Off"
+msgstr "コメントは受け付けていません。"
+
+#: includes/megumi-functions.php:541
+msgid "Enter your password to view comments."
+msgstr "この投稿はパスワードで保護されています。コメントを表示するにはパスワードを入力してください。"
+
+#: includes/megumi-functions.php:567
+#, php-format
+msgid "Comment on %s"
+msgstr "%へのコメント"
+
+#: includes/megumi-functions.php:639
+#: includes/megumi-functions.php:641
+#: includes/megumi-functions.php:654
+#: includes/megumi-functions.php:656
+msgid "[RSS]"
+msgstr ""
+
+#: includes/megumi-functions.php:808
+#: includes/megumi-functions.php:810
+msgid "Article List"
+msgstr "記事一覧"
+
+#: includes/megumi-functions.php:808
+#: includes/megumi-functions.php:810
+msgid "Article List &nbsp;&raquo;"
+msgstr "記事一覧 &nbsp;&raquo;"
+
+#: includes/megumi-functions.php:830
+msgid "Post list"
+msgstr "投稿リスト"
+
+#: includes/megumi-functions.php:1186
+#: includes/megumi-shortcode.php:7
+msgid "Related Articles"
+msgstr "関連記事"
+
+#: includes/megumi-functions.php:1271
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">より:</span>"
+
+#: includes/megumi-functions.php:1274
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
+
+#: includes/megumi-functions.php:1282
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/megumi-functions.php:1284
+#: includes/megumi-functions.php:1301
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: includes/megumi-functions.php:1301
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: includes/megumi-functions.php:1424
+msgid "http://wordpress.org/"
+msgstr "http://ja.wordpress.org/"
+
+#: includes/megumi-functions.php:1424
+#, php-format
+msgid "Proudly powered by %s."
+msgstr "Proudly powered by %s."
+
+#: includes/megumi-functions.php:1425
+msgid "http://www.megumithemes.com/"
+msgstr "http://www.10press.net/"
+
+#: includes/megumi-functions.php:1425
+#, php-format
+msgid "Theme by %s."
+msgstr ""
+
+#: includes/megumi-functions.php:1532
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/megumi-functions.php:1533
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/widgets.php:11
+msgid "If the page displays the current page the child."
+msgstr "現在のページに子ページがある場合に表示されます。"
+
+#: includes/widgets.php:13
+msgid "Megumi Child Page Nav"
+msgstr "め組:ページナビゲーション"
+
+#: includes/widgets.php:35
+msgid "Set the banner."
+msgstr "バナーを設定します。"
+
+#: includes/widgets.php:37
+msgid "Megumi Banner"
+msgstr "め組:バナー設定"
+
+#: includes/widgets.php:52
+msgid "URL:"
+msgstr ""
+
+#: includes/widgets.php:58
+#: includes/widgets.php:244
+msgid "Link Title:"
+msgstr "リンクのタイトル:"
+
+#: includes/widgets.php:69
+#: includes/widgets.php:255
+msgid "Open link in a new window/tab"
+msgstr "リンクを新ウィンドウまたはタブで開く"
+
+#: includes/widgets.php:74
+#: includes/widgets.php:260
+msgid "Images SRC:"
+msgstr "画像のURL:"
+
+#: includes/widgets.php:80
+#: includes/widgets.php:266
+msgid "Width:"
+msgstr "横幅:"
+
+#: includes/widgets.php:86
+#: includes/widgets.php:272
+msgid "Height:"
+msgstr "高さ:"
+
+#: includes/widgets.php:92
+#: includes/widgets.php:278
+msgid "alt:"
+msgstr ""
+
+#: includes/widgets.php:98
+#: includes/widgets.php:284
+#: includes/widgets.php:426
+msgid "class:"
+msgstr "クラス:"
+
+#: includes/widgets.php:143
+msgid "Place the banner for site content."
+msgstr "サイトコンテンツ用のバナーを設置します。"
+
+#: includes/widgets.php:145
+msgid "Megumi Content Banner"
+msgstr "め組:サイトコンテンツバナー"
+
+#: includes/widgets.php:174
+msgid "Use the title picture."
+msgstr "タイトルに画像を使用する。"
+
+#: includes/widgets.php:179
+msgid "Title Images SRC:"
+msgstr "タイトル画像のURL:"
+
+#: includes/widgets.php:185
+msgid "Title Imeges Width:"
+msgstr "タイトル画像の横幅:"
+
+#: includes/widgets.php:191
+msgid "Title Imeges Height:"
+msgstr "タイトル画像の高さ:"
+
+#: includes/widgets.php:197
+msgid "Title images alt:"
+msgstr "タイトル画像の alt :"
+
+#: includes/widgets.php:208
+msgid "A link to the title."
+msgstr "タイトルにリンクを設定。"
+
+#: includes/widgets.php:218
+msgid ":By ID"
+msgstr ": ID で指定"
+
+#: includes/widgets.php:226
+msgid ":ByURL"
+msgstr ": URL で指定"
+
+#: includes/widgets.php:231
+msgid "Specifies the ID:"
+msgstr "ページID :"
+
+#: includes/widgets.php:238
+msgid "Specify URL:"
+msgstr "URL :"
+
+#: includes/widgets.php:347
+msgid "View the page with the specified ID."
+msgstr "指定したIDでページを表示します。"
+
+#: includes/widgets.php:349
+msgid "Megumi Include Page"
+msgstr "め組:インクルードページ"
+
+#: includes/widgets.php:368
+msgid ":Page"
+msgstr "ページ:"
+
+#: includes/widgets.php:376
+msgid ":Post"
+msgstr ": 記事"
+
+#: includes/widgets.php:381
+msgid "ID:"
+msgstr ""
+
+#: includes/widgets.php:386
+#: includes/widgets.php:507
+msgid "Select View Type"
+msgstr "表示タイプ"
+
+#: includes/widgets.php:388
+msgid "Text and Image"
+msgstr "テキストと画像"
+
+#: includes/widgets.php:389
+msgid "Text Only"
+msgstr "テキストのみ"
+
+#: includes/widgets.php:390
+#: includes/widgets.php:519
+msgid "Image Only"
+msgstr "画像のみ"
+
+#: includes/widgets.php:396
+#: includes/widgets.php:525
+msgid "Select Image Size:"
+msgstr "画像サイズを選択:"
+
+#: includes/widgets.php:398
+#: includes/widgets.php:527
+msgid "None Select"
+msgstr "選択しない"
+
+#: includes/widgets.php:417
+msgid "Select Content Type"
+msgstr "コンテンツタイプ"
+
+#: includes/widgets.php:419
+msgid "Excerpt"
+msgstr "抜粋文表示"
+
+#: includes/widgets.php:420
+msgid "Content"
+msgstr "全文表示"
+
+#: includes/widgets.php:469
+msgid "The specified categories of posts."
+msgstr "指定したカテゴリーの記事を表示します。"
+
+#: includes/widgets.php:471
+msgid "Megumi Post List"
+msgstr "め組:投稿リスト"
+
+#: includes/widgets.php:497
+msgid ":View HOME"
+msgstr ":ホームでも表示します"
+
+#: includes/widgets.php:502
+msgid "Category ID:"
+msgstr "カテゴリーID :"
+
+#: includes/widgets.php:503
+msgid "Select all"
+msgstr "全て"
+
+#: includes/widgets.php:509
+msgid "Title and date"
+msgstr "タイトルと日付"
+
+#: includes/widgets.php:510
+msgid "Date and Title"
+msgstr "日付とタイトル"
+
+#: includes/widgets.php:511
+msgid "Category and date and title"
+msgstr "カテゴリーと日付とタイトル"
+
+#: includes/widgets.php:512
+msgid "Date and category and title"
+msgstr "日付とカテゴリーとタイトル"
+
+#: includes/widgets.php:513
+msgid "Date and title and category"
+msgstr "日付とタイトルとカテゴリー"
+
+#: includes/widgets.php:514
+msgid "Title Only"
+msgstr "タイトルのみ"
+
+#: includes/widgets.php:515
+msgid "Image and title and excerpt"
+msgstr "画像とタイトルと抜粋文"
+
+#: includes/widgets.php:516
+msgid "Title and Image and excerpt"
+msgstr "タイトルと画像と抜粋文"
+
+#: includes/widgets.php:517
+msgid "Image and date and excerpt"
+msgstr "画像と日付と抜粋文"
+
+#: includes/widgets.php:518
+msgid "Image and excerpt"
+msgstr "画像と抜粋文"
+
+#: includes/widgets.php:552
+msgid ":Show Sticky"
+msgstr ": 先頭に固定の記事も表示する"
+
+#: includes/widgets.php:557
+msgid "Number Display:"
+msgstr "表示数:"
+
+#: includes/widgets.php:562
+msgid "Order By"
+msgstr "並べ替え"
+
+#: includes/widgets.php:564
+msgid "Order by date."
+msgstr "作成日"
+
+#: includes/widgets.php:565
+msgid "Order by post id."
+msgstr "投稿ID"
+
+#: includes/widgets.php:566
+msgid "Random order."
+msgstr "ランダム"
+
+#: includes/widgets.php:567
+msgid "Sort Comments."
+msgstr "コメント順"
+
+#: includes/widgets.php:571
+msgid "Order"
+msgstr "並び順"
+
+#: includes/widgets.php:573
+msgid "ASC"
+msgstr "昇順"
+
+#: includes/widgets.php:574
+msgid "DESC"
+msgstr "降順"
+
+#: includes/widgets.php:579
+msgid "Custom field key:"
+msgstr "カスタムフィールドのキー:"
+
+#: includes/widgets.php:585
+msgid "Custom field value:"
+msgstr "カスタムフィールドの値:"
+
+#: includes/widgets.php:591
+#: includes/widgets.php:692
+msgid "Title:"
+msgstr "タイトル:"
+
+#: includes/widgets.php:597
+msgid "Title Class:"
+msgstr "タイトルのクラス:"
+
+#: includes/widgets.php:603
+msgid "List Class:"
+msgstr "リストのクラス:"
+
+#: includes/widgets.php:614
+msgid "Put a link to a list."
+msgstr "一覧ページへのリンクを付ける。"
+
+#: includes/widgets.php:678
+#: includes/widgets.php:680
+msgid "Page Content Nav"
+msgstr ""
+
+#: includes/widgets.php:697
+msgid "Page ID:"
+msgstr "ページID:"
+
+#: includes/widgets.php:699
+msgid "Reset"
+msgstr ""
+
+#: includes/widgets.php:722
+msgid "Sort:"
+msgstr ""
+
+#: includes/widgets.php:724
+msgid "Menu Order"
+msgstr "順序"
+
+#: includes/widgets.php:725
+msgid "Post Date"
+msgstr "投稿日順"
+
+#: includes/widgets.php:726
+msgid "Post ID"
+msgstr "ID順"
+
+#: includes/widgets.php:730
+msgid "Order:"
+msgstr "表示順序："
+
+#: includes/widgets.php:732
+msgid "Ascending"
+msgstr ""
+
+#: includes/widgets.php:733
+msgid "Descending"
+msgstr ""
+
+#~ msgid ""
+#~ "<span class=\"author\">Posts by <a href=\"%1$s\" title=\"%2$s\">%3$s</a></"
+#~ "span>"
+#~ msgstr ""
+#~ "<span class=\"author\">投稿者: <a href=\"%1$s\" title=\"%2$s\">%3$s</a></"
+#~ "span>"
+
+#~ msgid ":View thumbnail"
+#~ msgstr ": サムネールを表示する"
+
+#, fuzzy
+#~ msgid "The front page widget area 1"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "Front Page Widget Area 2"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "The front page widget area 2"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "Front Page Widget Area 3"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "The front page widget area 3"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "Front Page Widget Area 4"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "The front page widget area 4"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "Front Page Widget Area 5"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "The front page widget area 5"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "Front Page Widget Area 6"
+#~ msgstr "フッターウィジェットエリア1"
+
+#, fuzzy
+#~ msgid "The front page widget area 6"
+#~ msgstr "フッターウィジェットエリア1"
+
+#~ msgid "Archives"
+#~ msgstr "アーカイブ"
+
+#~ msgid "Meta"
+#~ msgstr "メタ情報"
+
+#~ msgid "Return to %s"
+#~ msgstr "%s に戻る"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> %s"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#~ msgid "<span class=\"%1$s\">By</span> %2$s"
+#~ msgstr "<span class=\"%1$s\">投稿者:</span> %2$s"
+
+#~ msgid "<span class=\"%1$s\">Published</span> %2$s"
+#~ msgstr "<span class=\"%1$s\">公開日:</span> %2$s"
+
+#~ msgid "Full size is %s pixels"
+#~ msgstr "フルサイズ: %sピクセル"
+
+#~ msgid "Link to full-size image"
+#~ msgstr "フルサイズ画像へのリンク"
+
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+#~ msgstr "<span class=\"%1$s\">カテゴリー:</span> %2$s"
+
+#~ msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+#~ msgstr "<span class=\"%1$s\">タグ:</span> %2$s"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "検索結果: %s"
+
+#~ msgid "Nothing Found"
+#~ msgstr "見つかりません"
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search criteria. Please try again with "
+#~ "some different keywords."
+#~ msgstr ""
+#~ "ご指定の検索条件に合う投稿がありませんでした。他のキーワードでもう一度検索"
+#~ "してみてください。"
+
+#~ msgid "Daily Archives: <span>%s</span>"
+#~ msgstr "日別アーカイブ: <span>%s</span>"
+
+#~ msgid "Monthly Archives: <span>%s</span>"
+#~ msgstr "月別アーカイブ: <span>%s</span>"
+
+#~ msgid "Yearly Archives: <span>%s</span>"
+#~ msgstr "年別アーカイブ: <span>%s</span>"
+
+#~ msgid "Comments are closed."
+#~ msgstr "コメントは受け付けていません。"
+
+#~ msgid "Semantic Personal Publishing Platform"
+#~ msgstr "セマンティックなパブリッシングツール"
+
+#~ msgid "Berries"
+#~ msgstr "ベリー"
+
+#~ msgid "Cherry Blossoms"
+#~ msgstr "桜"
+
+#~ msgid "Concave"
+#~ msgstr "凹面"
+
+#~ msgid "Fern"
+#~ msgstr "シダ"
+
+#~ msgid "Forest Floor"
+#~ msgstr "フォレスト・フロア"
+
+#~ msgid "Inkwell"
+#~ msgstr "インクウェル"
+
+#~ msgid "Path"
+#~ msgstr "パス"
+
+#~ msgid "Sunset"
+#~ msgstr "夕焼け"
+
+#~ msgid "Primary Widget Area"
+#~ msgstr "ウィジェットエリア1"
+
+#~ msgid "The primary widget area"
+#~ msgstr "ウィジェットエリア1"
+
+#~ msgid ""
+#~ "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</"
+#~ "span> %3$s"
+#~ msgstr ""
+#~ "<span class=\"%1$s\">投稿日:</span> %2$s <span class=\"meta-sep\">作成者:"
+#~ "</span> %3$s"
+
+#~ msgid ""
+#~ "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s"
+#~ "\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "カテゴリー: %1$s &nbsp; タグ: %2$s &nbsp; <a href=\"%3$s\" title=\"%4$s へ"
+#~ "のパーマリンク\" rel=\"bookmark\">この投稿のパーマリンク</a>"
+
+#~ msgid ""
+#~ "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+#~ "\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "カテゴリー: %1$s &nbsp; <a href=\"%3$s\" title=\"%4$s へのパーマリンク\" "
+#~ "rel=\"bookmark\">パーマリンク</a>"
+
+#~ msgid ""
+#~ "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+#~ "\">permalink</a>."
+#~ msgstr ""
+#~ "<a href=\"%3$s\" title=\"%4$s へのパーマリンク\" rel=\"bookmark\">パーマリ"
+#~ "ンク</a>をブックマーク"
+
+#~ msgid "Skip to content"
+#~ msgstr "コンテンツへ移動"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> 古い投稿"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid ""
+#~ "Apologies, but no results were found for the requested archive. Perhaps "
+#~ "searching will help find a related post."
+#~ msgstr ""
+#~ "リクエストされたアーカイブには何も見つかりませんでした。検索すれば関連投稿"
+#~ "が見つかるかもしれません。"
+#~ msgctxt "gallery category slug"
+
+#~ msgid "gallery"
+#~ msgstr "gallery"
+
+#~ msgid "This gallery contains <a %1$s>%2$s photos</a>."
+#~ msgstr "このギャラリーには<a %1$s>%2$s枚の画像</a>が含まれています。"
+
+#~ msgid "View posts in the Gallery category"
+#~ msgstr "ギャラリーカテゴリーの投稿を表示"
+
+#~ msgid "More Galleries"
+#~ msgstr "その他のギャラリー"
+#~ msgctxt "asides category slug"
+
+#~ msgid "asides"
+#~ msgstr "asides"
+
+#~ msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "%s の投稿をすべて表示 <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Twenty Ten"
+#~ msgstr "Twenty Ten"
+
+#~ msgid ""
+#~ "The 2010 theme for WordPress is stylish, customizable, simple, and "
+#~ "readable -- make it yours with a custom menu, header image, and "
+#~ "background. Twenty Ten supports six widgetized areas (two in the sidebar, "
+#~ "four in the footer) and featured images (thumbnails for gallery posts and "
+#~ "custom header images for posts and pages). It includes stylesheets for "
+#~ "print and the admin Visual Editor, special styles for posts in the "
+#~ "\"Asides\" and \"Gallery\" categories, and has an optional one-column "
+#~ "page template that removes the sidebar."
+#~ msgstr ""
+#~ "WordPress のテーマ「2010」は、スタイリッシュで、カスタマイズ可能で、簡潔"
+#~ "で、読みやすく -- カスタムメニュー、ヘッダー画像、背景でサイトを作れます。"
+#~ "Twenty Ten は6つのウィジェットエリア (サイドバーに2つ、フッターに4つ) と、"
+#~ "アイキャッチ画像 (ギャラリー投稿のサムネイルと、投稿やページのカスタムヘッ"
+#~ "ダー画像) に対応しています。印刷用、管理のビジュアルエディター用、\"Asides"
+#~ "\" と \"Gallery\" カテゴリー用のスタイルシートが用意されています。また、サ"
+#~ "イドバーを取り去った1カラムのページのテンプレートもあります。"
+
+#~ msgid "the WordPress team"
+#~ msgstr "the WordPress team"
+
+#~ msgid ""
+#~ "black, blue, white, two-columns, fixed-width, custom-header, custom-"
+#~ "background, threaded-comments, sticky-post, translation-ready, "
+#~ "microformats, rtl-language-support, editor-style"
+#~ msgstr ""
+#~ "black, blue, white, two-columns, fixed-width, custom-header, custom-"
+#~ "background, threaded-comments, sticky-post, translation-ready, "
+#~ "microformats, rtl-language-support, editor-style"
+
+#~ msgid "The 2010 default theme for WordPress."
+#~ msgstr "WordPress のデフォルトテーマ「2010」"
